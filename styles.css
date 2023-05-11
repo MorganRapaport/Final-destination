@@ -7,7 +7,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
     url(cool-background.jpg);
 }
 .Section-container {
@@ -18,7 +21,12 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(3, 29, 36, 0.526);
+  background-color: rgba(
+    3,
+    29,
+    36,
+    0.526
+  );
   color: white;
 }
 
@@ -177,25 +185,20 @@ button:hover {
 }
 .card {
   background-color: white;
-  width: 350px;
+  width: 400px;
   margin: 40px;
   border-radius: 15px;
 }
 .card-image {
   height: 240px;
   margin-bottom: 15px;
+  margin-top: 100px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
 .card-1 {
-  background-image: url(https://www.greatestphysiques.com/wp-content/uploads/2018/08/Eddie-Hall.10.jpg);
-}
-.card-2 {
-  background-image: url(https://imengine.public.nwt.infomaker.io/image.php?uuid=91008571-69c7-5f8c-9cf2-5bca5a1415e5&function=cropresize&type=preview&source=false&q=75&crop_w=0.97145669291339&crop_h=0.99999&x=0.014271653543307&y=1.0E-5&width=1200&height=800);
-}
-
-.card-3 {
-  background-image: url(https://i1.sndcdn.com/artworks-000570957689-r2rcph-t500x500.jpg);
+  background-image: url("images/Mosaiq.png");
+  width: 250px;
 }
 
 .card h2 {
@@ -220,4 +223,12 @@ button:hover {
   cursor: pointer;
   transform: scale(1.03);
   transition: all 1s ease;
+}
+
+footer {
+  color: white;
+}
+
+.about p {
+  color: white;
 }
