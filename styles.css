@@ -16,19 +16,6 @@ body {
 .Section-container {
   min-height: 50vh;
 }
-.navbar {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgba(
-    3,
-    29,
-    36,
-    0.526
-  );
-  color: white;
-}
 
 .brand-title {
   font-size: 1.5rem;
@@ -125,7 +112,7 @@ body {
 }
 .content h1 {
   font-size: 70px;
-  margin-top: 80px;
+  margin-top: 400px;
 }
 
 .button-edit button {
@@ -159,24 +146,6 @@ button:hover span {
 button:hover {
   border: none;
 }
-.pricelist {
-  display: flex;
-  flex-direction: column;
-  display: inline-flex;
-  border: solid 2px #009688;
-  border-radius: 25px;
-  flex-basis: content;
-  position: relative;
-  list-style: none;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  font-size: 30px;
-}
-.cost {
-  list-style-type: none;
-  color: white;
-  font-size: 25px;
-}
 
 .container {
   display: flex;
@@ -184,7 +153,7 @@ button:hover {
   flex-wrap: wrap;
 }
 .card {
-  background-color: white;
+  background-color: #fbfee7;
   width: 400px;
   margin: 40px;
   border-radius: 15px;
@@ -195,6 +164,7 @@ button:hover {
   margin-top: 100px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
+  margin-left: 70px;
 }
 .card-1 {
   background-image: url("images/Mosaiq.png");
@@ -210,7 +180,7 @@ button:hover {
 
 .card a {
   background-color: #009688;
-  color: white;
+  color: #fbfee7;
   padding: 15px 20px;
   display: block;
   text-align: center;
@@ -231,4 +201,20 @@ footer {
 
 .about p {
   color: white;
+}
+
+.skills {
+  color: #009688;
+  font-size: x-large;
+}
+
+.ImagePersonality {
+  display: flex;
+  justify-content: row;
+  justify-content: center;
+}
+
+.ImagePersonality img {
+  margin: 70px;
+  margin-top: 0px;
 }
